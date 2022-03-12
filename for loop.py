@@ -8,3 +8,7 @@ for x in fruits:
   print(x) 
   if x == "banana":
     break
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x) 
